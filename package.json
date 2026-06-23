@@ -1,0 +1,32 @@
+{
+  "name": "flutter-widget-snippets",
+  "displayName": "Flutter Widget Snippets",
+  "description": "Code snippets for StatelessWidget and StatefulWidget Flutter widgets.",
+  "version": "1.0.0",
+  "publisher": "gbeltramo",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "flutter",
+    "dart",
+    "snippets",
+    "widgets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gbeltramo/vscode-flutter-snippets"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "dart",
+        "path": "./extension/flutter_snippets.json"
+      }
+    ]
+  }
+}
